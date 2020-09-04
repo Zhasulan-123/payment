@@ -10,16 +10,20 @@
 
 4) composer update
 
-5) php yii migrate (Если ошибка то права доступа sudo chmod 777 -R ./vendor)
+5) php yii migrate 
+   
+   (Если ошибка то права доступа)
+   cd www
+   sudo chmod 777 -R ./*
 
 6) Добавить пользователь (Администратор)
 
-php yii app/add-user admin@mail.ru 123 Жасулан Иванов
+php yii app/add-user admin@mail.ru 123 Zhasulan Ivanov
    
     admin@mail.ru - (Логин)
     123 - (Пороль)
-    Жасулан - (Имя)
-    Иванов - (Фамилия)
+    Zhasulan - (Имя)
+    Ivanov - (Фамилия)
     
 7) Сайт localhost:8012
 
