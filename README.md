@@ -18,10 +18,10 @@
 
 6) Добавить пользователь (Администратор)
 
-php yii app/add-user admin@mail.ru 123 Zhasulan Ivanov
+php yii app/add-user admin@mail.ru zhas-123 Zhasulan Ivanov
    
     admin@mail.ru - (Логин)
-    123 - (Пороль)
+    zhas-123 - (Пороль)
     Zhasulan - (Имя)
     Ivanov - (Фамилия)
     
