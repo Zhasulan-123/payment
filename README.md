@@ -20,3 +20,9 @@ php yii app/add-user admin@mail.ru 123 Жасулан Молдакулов
     123 - (Пороль)
     Жасулан - (Имя)
     Молдакулов - (Фамилия)
+    
+7) Сайт localhost:8012
+
+8) phpmyadmin localhost:8000
+    login: root
+    password: test
