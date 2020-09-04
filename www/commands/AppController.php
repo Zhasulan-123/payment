@@ -15,7 +15,7 @@ class AppController extends Controller{
 
         $user = new User();
         $user->email = $email;
-        $user->password_hash = $security->generatePasswordHash($password);
+        $user->password = $security->generatePasswordHash($password);
         $user->username = $username;
         $user->fullname = $fullname;
         $user->auth_key = $security->generateRandomString(255);
